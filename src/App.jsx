@@ -1,10 +1,12 @@
 import './App.css'
-import {Login} from './assets/Login/Login'
+import {Header} from './Header.jsx'
+import {HomePage} from './HomePage.jsx'
 
 function App(){
 return (
   <div className = "app-container">
-
+    <Header/>
+    <HomePage/>
   </div>
 )
 }
