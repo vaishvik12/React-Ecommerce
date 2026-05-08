@@ -1,0 +1,36 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  width: 300px;
+  margin: auto;
+}
+
+.login-input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.password-input {
+  flex: 1;
+}
+
+.show-bttn {
+  padding: 10px;
+}
+
+.login-bttn {
+  padding: 10px;
+}
+
